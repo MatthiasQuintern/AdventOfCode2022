@@ -1,4 +1,4 @@
-# Advent of code 2022
+# Advent of code 2022 :christmas_tree:
 This is a repository for my solutions for the [advent of code 2022](https://adventofcode.com/2022).
 
 I will try to use as many different languages am not necessarily trying to do it the best or most efficient way,
