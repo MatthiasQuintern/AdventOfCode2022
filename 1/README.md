@@ -1,4 +1,4 @@
-# [https://adventofcode.com/2022/day/1](Day 1)
+# [Day 1](https://adventofcode.com/2022/day/1)
 ```shell
 # Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 awk -f day1-1.awk input.txt
