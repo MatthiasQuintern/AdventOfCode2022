@@ -3,7 +3,7 @@
 
 Today's language: **awk** + **GNU-coretils**
 
-- Task 1: We use awk to find the maximum while we iterate through over the file
+- Task 1: We use awk to find the maximum while we iterate through the file
 - Task 2: We use awk again for summing the calories, then sort them and take the top 3 which we again sum up with awk
 ```shell
 # Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
