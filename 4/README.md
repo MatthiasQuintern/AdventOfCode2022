@@ -14,7 +14,7 @@ It did a lot of things right, however it also did a lot of things wrong:
 - It told me the `read` syscall can read until a newline by passing `\n` as last arg
 
 So I had to fix all that. I tried to exclusively use the AI to get answers to my questions, however I did sometimes revert to the internet.
-It was still a good starting point and provided lots of help.\n
+It was still a good starting point and provided lots of help.
 At the end of the ~~evening~~ next morning I had successfully coded the task in x86-64 assembly! :smiley:
 
 I also gave it the exact same prompt again but said I wanted it in **C**.
