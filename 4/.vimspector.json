@@ -1,0 +1,22 @@
+{
+  "configurations": {
+    "vulkan_test": {
+        "adapter": "vscode-cpptools",
+        "configuration": {
+          "name": "day4",
+          "type": "asmdbg",
+          "request": "launch",
+          "externalConsole": true,
+          "logging": {
+            "engineLogging": true
+          },
+          "stopOnEntry": true,
+          "stopAtEntry": true,
+          "debugOptions": [],
+          "MIMode": "gdb",
+          "cwd": "~/Sonstiges/AdventOfCode/4",
+          "program": "~/Sonstiges/AdventOfCode/4/day4"
+        }
+    }
+  }
+}
