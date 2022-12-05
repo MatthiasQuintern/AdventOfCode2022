@@ -1,4 +1,4 @@
-# original prompt
+# Here is what I prompted OpenAI with to get day4-by-ai.c and day4.by.ai.s:
 consider a text file like this:
 22-65,22-66
 91-94,63-91
@@ -14,13 +14,3 @@ write an gnu-x86 assembly program that:
 A range r1 contains the other r2 when the r1.lower <= r2.lower and r1.upper >= r2.upper
 the program needs to output how often that is the case in the entire file
 
-# add task 2 to c code:
-can you add another check to the c code:
-it should now also check if one of the ranges overlaps the other.
-A range r1 overlaps the other r2  if:
-- r1.lower == r2.lower
-- r1.upper == r2.upper
-- r1.lower > r2.lower and r1.lower <= r2.upper
-- r1.upper < r1.upper r1.upper >= r2.lower
-...
-sorry i failed to mention that the overlaps and containment should be counted separately
