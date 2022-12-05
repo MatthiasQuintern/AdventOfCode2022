@@ -1,4 +1,4 @@
-# Here is what I prompted OpenAI with to get day4-by-ai.c and day4.by.ai.s:
+# Here is what I prompted OpenAI with to get day4-by-ai.c and day4-by-ai.s:
 consider a text file like this:
 22-65,22-66
 91-94,63-91
