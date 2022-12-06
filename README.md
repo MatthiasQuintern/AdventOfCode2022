@@ -9,8 +9,8 @@ The directories for each day contain my input file, my code and a README that sh
 
 ## Recommended Days
 These are the days with to most interesting code so far:
-1. day 4: **x86-64 assembly** with the help of OpenAI
-2. day 6: **html+javascript** [check out out here](https://quintern.xyz/advent22/day6.html)
+1. **day 4**: *x86-64 assembly* with the help of OpenAI
+2. **day 6**: *html+javascript* [check it out here](https://quintern.xyz/advent22/day6.html)
 
 Also, check out the repositories of my friends who do stuff in go, Visual Basic and php:
 - [Daniel](https://git.quintern.xyz/TheShinyMelon/AOC_2022)
