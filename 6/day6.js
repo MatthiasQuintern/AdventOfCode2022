@@ -58,3 +58,18 @@ function findPosition(line) {
     }
 
 }
+
+function randomizeSnowflakes() {
+    // Get all elements with the class "snow__flake"
+    var snowflakes = document.getElementsByClassName("snow__flake");
+
+    // Loop through the snowflakes
+    for (var i = 0; i < snowflakes.length; i++) {
+      // Generate a random number between 0 and 4
+      var delay = Math.random() * 4;
+
+      // Set the "animation-delay" property for the current snowflake
+      snowflakes[i].style.setProperty("animation-delay", delay + "s");
+    }
+}
+randomizeSnowflakes();
