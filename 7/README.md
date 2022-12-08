@@ -9,7 +9,8 @@ in any POSIX shell,
 *if* the user wasn't as stupid...
 
 That's why I wrote a bash script that actually creates the whole filesystem from the input-file.
-It does so (by default) in `/tmp`. The sizes for the files are only allocated so that `du` shows the filesize, no write operations are taking place.
+It does so (by default) in `/tmp`. The sizes for the files are only allocated, so that `du` shows the filesize. 
+No actual write operations are taking place, which makes recreating the file structure pretty fast.
 
 ### I am stupid
 The problem is, that (even empty) directories have a size, which also increases with every file and subdirectory in it.
