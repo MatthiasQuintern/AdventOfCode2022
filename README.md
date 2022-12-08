@@ -22,7 +22,7 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 - **Assembly, x86-64**: day 4
 - **Bash**: day 1, 7
 - **C**: day 3, 4
-- **C++**: day 2
+- **C++**: day 2, 8
 - **Javascript**: day 6
 - **Python**: day 5
 - **VIM-Script**: day 3
