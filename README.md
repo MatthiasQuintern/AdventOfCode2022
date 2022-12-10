@@ -9,7 +9,7 @@ The directories for each day contain my input file, my code and a README that sh
 
 ## Recommended Days
 These are the days with to most interesting code so far:
-1. **day 4**: *x86-64 assembly* with the help of OpenAI
+1. **day 4**: *x86-64 assembly* with the help of ChatGPT
 2. **day 6**: *html+javascript* [check it out here](https://quintern.xyz/advent22/day6.html)
 3. **day 7**: *awk+bash*
 

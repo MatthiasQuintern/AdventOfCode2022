@@ -3,7 +3,7 @@
 
 Today's language: **gnu x86-64** (and alternatively **C**)
 
-Today I wanted to use OpenAI to solve the tasks using *gnu* **x86-64 assembly**, which I have never used before 
+Today I wanted to use ChatGPT to solve the tasks using *gnu* **x86-64 assembly**, which I have never used before 
 (I did some small things in [6502-asssembly](https://github.com/MatthiasQuintern/6502), so it wasn't all new).
 The prompt can be seen in `prompt.md`, the original file in `day4-by-ai.s`.
 It did a lot of things right, however it also did a lot of things wrong:
