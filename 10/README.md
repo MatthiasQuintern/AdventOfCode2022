@@ -4,5 +4,6 @@
 Today's language: **Java**
 
 ```shell
-
+javac Main.java
+java Main
 ```
