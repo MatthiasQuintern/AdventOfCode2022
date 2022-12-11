@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.lang.Math;
+import java.lang.Thread;
 
 public class Main {
     static int instructionCounter = 1;
@@ -14,7 +15,7 @@ public class Main {
         int crtPos = (instructionCounter - 1) % 40;
         // System.out.printf("crtpos: %d\n", crtPos);
         if (Math.abs(registerX - 1 - crtPos) <= 1) { s = "█"; }
-        else { s = " "; }
+        else { s = "░"; }
         if (instructionCounter % 40 == 0) { s += "\r\n"; }
         return s;
     }
@@ -24,6 +25,10 @@ public class Main {
         if (instructionCounter >= 20 && (instructionCounter - 20) % 40 == 0) {
             signalStrenghts += registerX * instructionCounter;
         }
+        try {
+          Thread.sleep(50);
+        }
+        catch (InterruptedException ignore) {}
     }
 
     public static void main(String[] args) throws IOException {
