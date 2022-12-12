@@ -26,5 +26,5 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 - **Java**: day 10
 - **Javascript**: day 6
 - **php**: day 9
-- **Python**: day 5
+- **Python**: day 5, 11
 - **VIM-Script**: day 3
