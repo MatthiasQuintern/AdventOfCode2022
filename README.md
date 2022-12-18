@@ -9,9 +9,10 @@ The directories for each day contain my input file, my code and a README that sh
 
 ## Recommended Days
 These are the days with to most interesting code so far:
-1. **day 4**: *x86-64 assembly* with the help of ChatGPT
-2. **day 6**: *html+javascript* [check it out here](https://quintern.xyz/advent22/day6.html)
-3. **day 7**: *awk+bash*
+1. **day 13**: *HolyC* on a TempleOS virtual machine
+2. **day 4**: *x86-64 assembly* with the help of ChatGPT
+3. **day 6**: *html+javascript* [check it out here](https://quintern.xyz/advent22/day6.html)
+4. **day 7**: *awk+bash*
 
 Also, check out the repositories of my friends who do stuff in go, Visual Basic, php and many other languages!
 - [Daniel](https://git.quintern.xyz/TheShinyMelon/AOC_2022)
@@ -23,6 +24,7 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 - **Bash**: day 1, 7
 - **C**: day 3, 4
 - **C++**: day 2, 8, 14
+- **HolyC:** day 13
 - **Java**: day 10
 - **Javascript**: day 6
 - **php**: day 9
