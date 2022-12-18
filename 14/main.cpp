@@ -54,7 +54,6 @@ Cave::Cave(const char* filename) {
         walls = gz::util::splitStringInVector<std::string_view>(std::string_view(buf), " -> ");
         unsigned startX = 0, startY = 0;
         unsigned endX = 0, endY = 0;
-        std::cout << gz::toString(walls);
         for (auto& wall : walls) {
             auto comma = wall.find(',');
             endX = gz::fromString<unsigned>(std::string(wall.substr(0, comma)));
