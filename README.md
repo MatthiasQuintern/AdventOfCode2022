@@ -22,7 +22,7 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 - **Awk**: day 1, 7
 - **Assembly, x86-64**: day 4
 - **Bash**: day 1, 7
-- **C**: day 3, 4
+- **C**: day 3, 4, 15
 - **C++**: day 2, 8, 12, 14
 - **HolyC:** day 13
 - **Java**: day 10
