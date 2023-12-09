@@ -1,3 +1,11 @@
-Jonas
-Daniel
-README.md.temp
+# ignore all without extension 
+*
+!*.*
+!*/
+*.txt
+*.o
+*.class
+*.vimspector.json
+*.clangd
+*.old
+
