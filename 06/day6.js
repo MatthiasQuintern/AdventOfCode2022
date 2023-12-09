@@ -28,6 +28,7 @@ start.addEventListener("click", () => {
 
 
 function findPosition(line) {
+    console.time("day06")
     let i = 4;
     let packetStart = line.substring(0, 4);  // should always contain 4 chars
     let messageStart = line.substring(0, 14);  // should always contain 14 chars
@@ -49,8 +50,9 @@ function findPosition(line) {
                 messageStart = messageStart.substring(1, 14) + line[i];
             }
             else {
-              output.innerHTML = "Found the first packet start marker at position <b>" + packetStartI + "</b>, the marker is " + packetStart + "<br>" +
-                  "Found the first message start marker at position <b>" + i + "</b>, the marker is " + messageStart + "\n";
+                output.innerHTML = "Found the first packet start marker at position <b>" + packetStartI + "</b>, the marker is " + packetStart + "<br>" +
+                    "Found the first message start marker at position <b>" + i + "</b>, the marker is " + messageStart + "\n";
+                console.timeEnd("day06")
               return;
             }
         }
