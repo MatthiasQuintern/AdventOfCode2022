@@ -1,5 +1,7 @@
 <h1>DER BIMMLER</h2>
 <?php
+$time_start = microtime(true);
+
 function move_number_closer(&$headn, &$tailn) {
     $distance = $headn - $tailn;
     if (abs($distance) > 1) {
@@ -100,6 +102,9 @@ for ($i = 0; $i < count($head_movements); $i++) {
         /* display($current_positions[0], $current_positions[$last_tail]); */
     }
 }
-print_r($visited_positions);
+/* print_r($visited_positions); */
 print("Total number of positions=".array_sum($visited_positions));
 print("Number of unique visited positions=".count($visited_positions));
+
+// Anywhere else in the script
+echo 'Total execution time: ' . (microtime(true) - $time_start);
