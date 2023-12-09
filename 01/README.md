@@ -5,7 +5,7 @@ Today's language: **Awk + Bash**
 
 Lines of code: **2**
 
-Execution time: **0,0011 s**
+Execution time: **0,011 s**
 
 <!-- one-liners -->
 
