@@ -11,26 +11,27 @@ The directories for each day contain my input file, my code and a README that sh
 These are the days with to most interesting code so far:
 1. **day 13**: *HolyC* on a TempleOS virtual machine
 2. **day 4**: *x86-64 assembly* with the help of ChatGPT
-3. **day 6**: *html+javascript* [check it out here](https://quintern.xyz/advent22/day6.html)
+3. **day 6**: *html+javascript* <!-- [check it out here](https://quintern.xyz/advent22/day6.html) -->
 4. **day 7**: *awk+bash*
 
 Also, check out the repositories of my friends who do stuff in go, Visual Basic, php and many other languages!
 - [Daniel](https://git.quintern.xyz/TheShinyMelon/AOC_2022)
 - [Jonas](https://github.com/JonasBordewick/advent_of_code_2022)
 
-## Language - Day
-- **Awk**: day 1, 7
-- **Assembly, x86-64**: day 4
-- **Bash**: day 1, 7
-- **C**: day 3, 4, 15
-- **C++**: day 2, 8, 12, 14
-- **HolyC:** day 13
-- **Java**: day 10
-- **Javascript**: day 6
-- **php**: day 9
-- **Python**: day 5, 11
-- **VIM-Script**: day 4
+<!-- ## Language - Day -->
+<!-- - **Awk**: day 1, 7 -->
+<!-- - **Assembly, x86-64**: day 4 -->
+<!-- - **Bash**: day 1, 7 -->
+<!-- - **C**: day 3, 4, 15 -->
+<!-- - **C++**: day 2, 8, 12, 14 -->
+<!-- - **HolyC:** day 13 -->
+<!-- - **Java**: day 10 -->
+<!-- - **Javascript**: day 6 -->
+<!-- - **php**: day 9 -->
+<!-- - **Python**: day 5, 11 -->
+<!-- - **VIM-Script**: day 4 -->
 
+## Overview
 <!-- table begin -->
 | Day      | Language        | Lines of code | Execuction time | Comment                         |
 |:---:     |:---:            | ---:          | ---:            |---                              |
@@ -49,7 +50,6 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 | [13](13) | HolyC           | 228           | < 0,500 s       | yes, coded in HolyC on TempleOS |
 | [14](14) | C++             | 113           | 0,085 s         |                                 |
 | [15](15) | C               | 98            | 0,801 s         |                                 |
-| [16](16) |                 |               |                 |                                 |
 
  Lines of code are without blank lines and comments
 
