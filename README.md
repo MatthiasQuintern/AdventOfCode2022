@@ -35,7 +35,7 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 <!-- table begin -->
 | Day      | Language        | Lines of code | Execuction time | Comment                         |
 |:---:     |:---:            | ---:          | ---:            |---                              |
-| [01](01) | GNU-coretils    | 2             | 0,0011 s        |                                 |
+| [01](01) | GNU-coretils    | 2             | 0,011 s         |                                 |
 | [02](02) | C++             | 40            | 0,003 s         |                                 |
 | [03](03) | C               | 78            | 0,001 s         | including ChatGPT extra         |
 | [04](04) | x86-64 Assembly | 241           | 0,010 s         | ChatGPT tought me Assembly      |
@@ -44,7 +44,7 @@ Also, check out the repositories of my friends who do stuff in go, Visual Basic,
 | [07](07) | Bash + Awk      | 53            | 0,039 s         | creates the filesystem          |
 | [08](08) | C++             | 116           | 0,002 s         |                                 |
 | [09](09) | php             | 87            | 0,126 s         |                                 |
-| [10](10) | Java            | 48            | 12,085 s        |                                 |
+| [10](10) | Java            | 48            | 12,085 s        | slow because it uses sleep      |
 | [11](11) | Python          | 71            | 0,284 s         |                                 |
 | [12](12) | C++             | 142           | 0,670 s         |                                 |
 | [13](13) | HolyC           | 228           | < 0,500 s       | yes, coded in HolyC on TempleOS |
