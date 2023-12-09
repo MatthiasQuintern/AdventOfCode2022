@@ -3,6 +3,10 @@
 
 Today's language: **awk** + **GNU-coretils**
 
+Lines of code: **2**
+
+Execution time: **0,0011 s**
+
 - Task 1: We use awk to find the maximum while we iterate through the file
 - Task 2: We use awk again for summing the calories, then sort them and take the top 3 which we again sum up with awk
 ```shell

@@ -3,6 +3,12 @@
 
 Today's language: **HolyC**
 
-Yes. HolyC. In TempleOS.
+Lines of code: **228**
+
+Execution time: **< 0,500 s**
+
+Yes. HolyC. On TempleOS.
+
+<!-- yes, coded in HolyC on TempleOS -->
 
 ![TempleOS Screenshot](day13.png "It actually runs")

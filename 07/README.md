@@ -1,18 +1,22 @@
 # [Day 7](https://adventofcode.com/2022/day/7) 
 :gift::gift::gift::gift::gift::gift::gift:
 
-Today's language: **Bash** + **awk**
+Today's language: **Bash + Awk**
 
-## Day 7 is stupid
+Lines of code: **53**
+
+Execution time: **0,039 s**
+
+## The protagonist is stupid
 The way the challenge is laid out is absolutely ridiculus; both tasks could be done in one-liners on a Linux machine *(which the device from the challenge probably is)*
 in any POSIX shell, 
-*if* the user wasn't as stupid...
+*if* the user wasn't as stupid as our protagonist...
 
 That's why I wrote a bash script that actually creates the whole filesystem from the input-file.
 It does so (by default) in `/tmp`. The sizes for the files are only allocated, so that `du` shows the filesize. 
 No actual write operations are taking place, which makes recreating the file structure pretty fast.
 
-### I am stupid
+### And so am I?
 The problem is, that (even empty) directories have a size, which also increases with every file and subdirectory in it.
 That's why I needed to calculate the sizes of the directories *without* the actual file sizes and subtract that from the output of `du`.
 This new output can then be piped into an `awk` one-liner. In reality, this problem wouldn't exist since you would want the total size of a directory anyway.
@@ -29,3 +33,4 @@ du -b / | awk 'BEGIN{file=""; size=99999999} {if ($1 >= min_size && $1 < size) {
 ```shell
 ./day7.sh output.txt
 ```
+<!-- creates the filesystem -->

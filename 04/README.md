@@ -1,7 +1,13 @@
 # [Day 4](https://adventofcode.com/2022/day/4) 
 :gift::gift::gift::gift:
 
-Today's language: **gnu x86-64** (and alternatively **C**)
+Today's language: **x86-64 Assembly**
+
+Lines of code: **241**
+
+Execution time: **0,010 s**
+
+<!-- ChatGPT tought me Assembly -->
 
 Today I wanted to use ChatGPT to solve the tasks using *gnu* **x86-64 assembly**, which I have never used before 
 (I did some small things in [6502-asssembly](https://github.com/MatthiasQuintern/6502), so it wasn't all new).

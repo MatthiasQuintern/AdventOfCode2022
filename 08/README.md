@@ -3,6 +3,10 @@
 
 Today's language: **C++**
 
+Lines of code: **116**
+
+Execution time: **0,002 s**
+
 I hope we are not missing the wood for the trees...
 
 ```shell

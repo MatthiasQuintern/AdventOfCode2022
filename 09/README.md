@@ -3,6 +3,10 @@
 
 Today's language: **php**
 
+Lines of code: **87**
+
+Execution time: **0,126 s**
+
 My very first php-program :v:
 ```shell
 php -S localhost:8000 -t .

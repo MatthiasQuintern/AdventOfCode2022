@@ -1,6 +1,11 @@
 # [Day 2](https://adventofcode.com/2022/day/2)
 :gift::gift:
+
 Today's language: **C++**
+
+Lines of code: **40**
+
+Execution time: **0,003 s**
 
 We use that chars are just numbers, so we can easily convert them into the respective points by just subtracting `'A'` or `'X'`.
 The rest is then just a few `if else`s.
